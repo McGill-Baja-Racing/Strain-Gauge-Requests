@@ -6,14 +6,14 @@ labels: ''
 assignees: ''
 ---
 
-Read the [request guide](https://github.com/McGill-Baja-Racing/Strain-Gauge-Requests/blob/main/docs/REQUEST_GUIDE.md). Allow 5–10 minutes; estimates and **TBD** are acceptable initially. Submit one issue per measurement setup and include component quantity. Electronics determines gauges and DAQ requirements. Missing information must be resolved before installation.
+Read the [request guide](https://github.com/McGill-Baja-Racing/Strain-Gauge-Requests/blob/main/docs/REQUEST_GUIDE.md). Estimates and **TBD** are acceptable initially. Submit one issue per measurement setup and include component quantity. Electronics determines gauges and DAQ requirements. Missing information must be resolved before installation.
 
 ## 1. General Information / Measurement
 
 - **Subsystem / Contact:**
 - **Component(s) and quantity:**
 - **Measurement objective:** What do you want to measure (strain, axial force, bending moment, torque, etc.), and why?
-- **Expected operating loads:** Type, directions, minimum–maximum, and units.
+- **Expected operating loads:** Force Type, directions, minimum–maximum, and units.
 - **Basis for load estimates:** Calculations, FEA, previous testing, or assumptions.
 - **Component CAD / drawings / photos:** Attach or link.
 
