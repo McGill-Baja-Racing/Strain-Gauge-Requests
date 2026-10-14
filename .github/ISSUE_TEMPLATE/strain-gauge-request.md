@@ -19,7 +19,7 @@ Read the [request guide](https://github.com/McGill-Baja-Racing/Strain-Gauge-Requ
 
 ## 2. Preliminary Calibration Plan
 
-Plan calibration across the full intended force/torque measurement range, including both load directions where applicable. Subsystem leads must adapt their setup if its achievable range falls short. A preliminary concept is enough for submission; equipment and fixture suitability must be confirmed before installation. For local strain without force/torque conversion, describe a suitable validation method instead.
+Plan calibration across the full intended force/torque measurement range in the selected calibration direction. Our current Mantracourt setup supports calibration in one load direction; specify that direction and identify any expected operating loads in the opposite direction. Subsystem leads must adapt their setup if its achievable range falls short. A preliminary concept is enough for submission; equipment and fixture suitability must be confirmed before installation. For local strain without force/torque conversion, describe a suitable validation method instead.
 
 - **How could known loads be applied to the component?** Mounting, constraints, and loading; sketch encouraged. Or describe local strain validation.
 - **Proposed calibration load range:** Realistically achievable minimum–maximum, with units; or validation conditions.
