@@ -6,20 +6,20 @@ labels: ''
 assignees: ''
 ---
 
-Read the [request guide](https://github.com/McGill-Baja-Racing/Strain-Gauge-Requests/blob/main/docs/REQUEST_GUIDE.md). Allow 5–10 minutes; estimates and **TBD** are acceptable initially. Submit one issue per measurement setup and include component quantity. Electronics determines gauges and DAQ requirements. Missing information must be resolved before installation.
+Read the [request guide](https://github.com/McGill-Baja-Racing/Strain-Gauge-Requests/blob/main/docs/REQUEST_GUIDE.md). Estimates and **TBD** are acceptable initially. Submit one issue per measurement setup and include component quantity. Electronics determines gauges and DAQ requirements. Missing information must be resolved before installation.
 
 ## 1. General Information / Measurement
 
 - **Subsystem / Contact:**
 - **Component(s) and quantity:**
 - **Measurement objective:** What do you want to measure (strain, axial force, bending moment, torque, etc.), and why?
-- **Expected operating loads:** Type, directions, minimum–maximum, and units.
+- **Expected operating loads:** Force Type, directions, minimum–maximum, and units.
 - **Basis for load estimates:** Calculations, FEA, previous testing, or assumptions.
 - **Component CAD / drawings / photos:** Attach or link.
 
 ## 2. Preliminary Calibration Plan
 
-Operating loads and calibration loads need not be the same. A preliminary concept is enough for review; equipment and fixture suitability must be confirmed before installation. For local strain without force/torque conversion, describe a suitable validation method instead.
+Plan calibration across the full intended force/torque measurement range, including both load directions where applicable. Subsystem leads must adapt their setup if its achievable range falls short. A preliminary concept is enough for submission; equipment and fixture suitability must be confirmed before installation. For local strain without force/torque conversion, describe a suitable validation method instead.
 
 - **How could known loads be applied to the component?** Mounting, constraints, and loading; sketch encouraged. Or describe local strain validation.
 - **Proposed calibration load range:** Realistically achievable minimum–maximum, with units; or validation conditions.
