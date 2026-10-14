@@ -11,5 +11,3 @@ Use **one issue per measurement setup**: a shared objective, component configura
 3. Before installation approval, confirm final locations, selected equipment, component delivery, a feasible calibration/validation plan, available fixtures and references, an owner, and sufficient scheduled time.
 4. Install, allow curing, wire, and verify electrical operation; then perform and document calibration or validation.
 5. Mark **Ready for Testing** only when usable data can be collected. Approval of a calibration plan is not completion of calibration.
-
-The dedicated **Strain Gauge Installations** Project has not been created. Maintainers can follow [Project setup](docs/PROJECT_SETUP.md) and add its actual link here afterward. Until then, track progress in the issue's Electronics review section.
