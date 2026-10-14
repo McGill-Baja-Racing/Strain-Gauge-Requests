@@ -26,7 +26,9 @@ Examples:
 
 “Known” means supported by a suitable reference, such as verified weights, a reference load cell, or measured force and lever-arm geometry. A predicted actuator setting or an unverified equipment rating alone is not a measured applied load. Mounting constraints and load directions affect the strain distribution, so describe them explicitly.
 
-**Operating loads** are what you expect on the vehicle. **Calibration loads** are what your setup can safely and realistically reproduce. Give both ranges and units even when they differ. For example, an expected 5 kN operating maximum and a fixture limited to 2 kN are different inputs; Electronics must review whether the available calibration range supports the intended use. Do not assume extrapolation is valid.
+**Operating loads** are what you expect on the vehicle. **Calibration loads** are what your setup can safely and realistically reproduce. Report both ranges and units so any gap is visible. For force or torque measurements, subsystem leads are responsible for planning calibration across the full intended measurement range, including tension/compression or both torque directions where applicable.
+
+If you expect to measure up to 5 kN but your fixture can apply only 2 kN, adapt the plan: obtain suitable reference equipment, redesign the fixture, or arrange access to a capable test setup. Calibrating to 2 kN does not establish accuracy at 5 kN; extending the conversion beyond that range assumes behavior that has not been verified. This is an accuracy and uncertainty concern, even if readings remain repeatable. Resolve the range shortfall within the subsystem's calibration plan before installation rather than relying on Electronics to approve extrapolation. Loading above the expected maximum is not automatically required; any chosen margin must remain within safe component, fixture, and equipment capacities.
 
 Additional load cases may be needed to check sensitivity to unwanted loading, such as bending during axial-force measurement. Electronics will help select final calibration levels, configurations, repeats, and acceptance checks.
 

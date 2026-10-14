@@ -19,7 +19,7 @@ Read the [request guide](https://github.com/McGill-Baja-Racing/Strain-Gauge-Requ
 
 ## 2. Preliminary Calibration Plan
 
-Operating loads and calibration loads need not be the same. A preliminary concept is enough for review; equipment and fixture suitability must be confirmed before installation. For local strain without force/torque conversion, describe a suitable validation method instead.
+Plan calibration across the full intended force/torque measurement range, including both load directions where applicable. Subsystem leads must adapt their setup if its achievable range falls short. A preliminary concept is enough for submission; equipment and fixture suitability must be confirmed before installation. For local strain without force/torque conversion, describe a suitable validation method instead.
 
 - **How could known loads be applied to the component?** Mounting, constraints, and loading; sketch encouraged. Or describe local strain validation.
 - **Proposed calibration load range:** Realistically achievable minimum–maximum, with units; or validation conditions.
