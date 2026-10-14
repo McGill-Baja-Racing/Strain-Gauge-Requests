@@ -12,18 +12,18 @@ Read the [request guide](https://github.com/McGill-Baja-Racing/Strain-Gauge-Requ
 
 - **Subsystem / Contact:**
 - **Component(s) and quantity:**
-- **Measurement objective:** What do you want to measure (strain, axial force, bending moment, torque, etc.), and why?
+- **Measurement objective:** What force do you want to measure, in which direction, and why?
 - **Expected operating loads:** Force Type, directions, minimum–maximum, and units.
 - **Basis for load estimates:** Calculations, FEA, previous testing, or assumptions.
 - **Component CAD / drawings / photos:** Attach or link.
 
 ## 2. Preliminary Calibration Plan
 
-Plan calibration across the full intended force/torque measurement range in the selected calibration direction. Our current Mantracourt setup supports calibration in one load direction; specify that direction and identify any expected operating loads in the opposite direction. Subsystem leads must adapt their setup if its achievable range falls short. A preliminary concept is enough for submission; equipment and fixture suitability must be confirmed before installation. For local strain without force/torque conversion, describe a suitable validation method instead.
+Plan calibration across the full intended force measurement range in the selected calibration direction. Our current Mantracourt setup supports calibration in one load direction; specify that direction and identify any expected operating loads in the opposite direction. Subsystem leads must adapt their setup if its achievable range falls short. A preliminary concept is enough for submission; equipment and fixture suitability must be confirmed before installation.
 
-- **How could known loads be applied to the component?** Mounting, constraints, and loading; sketch encouraged. Or describe local strain validation.
-- **Proposed calibration load range:** Realistically achievable minimum–maximum, with units; or validation conditions.
-- **How will the applied loads be known or measured?** Weights, load cell, lever arm, etc.; or validation reference.
+- **How could known loads be applied to the component?** Mounting, constraints, and loading; sketch encouraged.
+- **Proposed calibration load range:** Realistically achievable minimum–maximum, with units.
+- **How will the applied loads be known or measured?** Weights, load cell, lever arm, etc..
 - **Required equipment / fixtures:**
 - **Equipment availability:** Check the best match; explain mixed availability below.
   - [ ] Confirmed available
@@ -35,7 +35,7 @@ Plan calibration across the full intended force/torque measurement range in the 
 
 ## 3. Timeline and Priority
 
-Completion means installed, electrically checked, and calibrated or validated, ready to collect usable data. Use dates (YYYY-MM-DD) or TBD.
+Completion means installed, electrically checked, and calibrated, ready to collect usable data. Use dates (YYYY-MM-DD) or TBD.
 
 - **Component available from:**
 - **Calibration setup ready by:**
@@ -58,7 +58,7 @@ Completion means installed, electrically checked, and calibrated or validated, r
 - **DAQ channels and assigned equipment:**
 - **Estimated installation effort and scheduled date:** Include curing, wiring, checks, and calibration time.
 - [ ] Initial technical review complete (preliminary estimates and calibration concept acceptable)
-- [ ] Installation approved: final locations and equipment selected; component available or delivery confirmed; calibration/validation method feasible, reference equipment and fixtures confirmed, owner identified, and sufficient time scheduled
+- [ ] Installation approved: final locations and equipment selected; component available or delivery confirmed; calibration method feasible, reference equipment and fixtures confirmed, owner identified, and sufficient time scheduled
 - [ ] Installation and electrical verification completed
-- [ ] Calibration/validation completed and documented (link results):
+- [ ] Calibration completed and documented (link results):
 - [ ] Ready for testing

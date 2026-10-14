@@ -37,8 +37,8 @@ Set default single-select values in each field's settings. Leave unreviewed quan
 | Awaiting Readiness | Initial review complete; final component, fixtures, references, owner, or schedule still pending |
 | Ready for Installation | Electronics explicitly approved all installation prerequisites in the issue |
 | Installing | Installation, curing, wiring, and electrical verification underway |
-| Calibrating / Validating | Electrical verification complete; physical calibration or suitable strain validation underway |
-| Ready for Testing | Calibration/validation successfully completed and documented; usable data ready |
+| Calibrating | Electrical verification complete; physical calibration underway |
+| Ready for Testing | Calibration successfully completed and documented; usable data ready |
 | Blocked | Work cannot proceed; comment with blocker, owner, and next action |
 
 Initial technical review approval does not authorize installation. Approval of a calibration plan does not mean calibration is complete. Moving cards is manual coordination, not an enforced approval gate; use the issue checklist as the record. When unblocked, return to the appropriate stage.
